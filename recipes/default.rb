@@ -37,3 +37,17 @@ execute "mkdir-config" do
   command "mkdir "+$configDir
 end
 
+cookbook_file "~/.conkyrc" do
+	source ".conkyrc"
+	mode 0755
+end
+
+cookbook_file "~/.lua" do
+	source ".lua"
+	mode 0755
+end
+
+cookbook_file "~/.conky" do
+	source "conky"
+	mode 0755
+end

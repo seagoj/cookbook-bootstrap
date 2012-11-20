@@ -37,8 +37,8 @@ border_outer_margin 0
 ## This Resolution is set according to the sreen resolution of 1366x768 
 ## Adjust Accoring to yours
 
-minimum_size 1366 560
-maximum_width 1366
+minimum_size 1920 1080
+maximum_width 1920
 
 alignment tr
 gap_x 10
